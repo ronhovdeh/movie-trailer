@@ -1,21 +1,84 @@
 // Global Stylesheet
 
 // Color Palette
-$primary-color: gold;
-$secondary-color: purple;
+$primary-color: #32719A;
+$secondary-color: #FB9952;
+$tertiary-color: #001E3A;
 
 // Typography
-// Hide for Mobile & Tablet
-article h1 {
-    display: none;
+body {
+    font-family: Futura;
 }
 
+//Header
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: $tertiary-color;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0; 
+    font-size: 5em
+}
+h2 {
+    font-family:Futura;
+    color: $tertiary-color;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0; 
+}
+
+h3 {
+    font-family: Futura;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0 2em 0;
+    font-size: 1em;
+    
+}
+h4{
+  font-family: Bad Script;
+  text-align: center;
+    width: 90%;
+    margin: 1;
+    padding: .1em 2 1em 0;
+    font-size: 1.1em;
+}
+h5{
+    font-family: helvetica;
+    color:black;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0; 
+   font-size:.1em;
+}
+
+h6{
+  color: $tertiary-color;
+  text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0 2em 0;
+    font-size: .1em;
+}
 // Video Player Styling
 video {
     max-width: 100%;
     width: 100%;
 }
 
-.mejs__time-total {
-    background: rgb(255, 0, 0);
+//links
+
+a:visited {
+  color:$tertiary-color;
+}
+
+a:hover{
+  color:$secondary-color; 
 }
